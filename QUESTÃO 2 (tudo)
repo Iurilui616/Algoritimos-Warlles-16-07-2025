@@ -4,7 +4,7 @@
 int main()
 {
  int a, b;
-    float som, sub, mul, divi;
+    int som, sub, mul, divi;
     int res;
 
     printf("Informe a: ");
@@ -19,9 +19,9 @@ int main()
     divi = a / b;
     res = a % b;
 
-    printf("Resultado da adicao: %.2f\n", som);
-    printf("Resultado da subtracao: %.2f\n", sub);
-    printf("Resultado da multiplicacao: %.2f\n", mul);
-    printf("Resultado da divisao: %.2f\n", divi);
+    printf("Resultado da adicao: %d\n", som);
+    printf("Resultado da subtracao: %d\n", sub);
+    printf("Resultado da multiplicacao: %d\n", mul);
+    printf("Resultado da divisao: %d\n", divi);
     printf("Resultado do resto: %d\n", res);
 }
