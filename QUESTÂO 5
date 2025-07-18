@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+ int x, y;
+
+    printf("Digite o primeiro numero: ");
+    scanf("%d", &x);
+
+    printf("Digite o segundo numero: ");
+    scanf("%d", &y);
+
+    if (x % y == 0) {
+        printf("%d é múltiplo de %d\n", x, y);
+    } else {
+        printf("%d NÃO é múltiplo de %d\n", x, y);
+    }
+
+    return 0;
+}
