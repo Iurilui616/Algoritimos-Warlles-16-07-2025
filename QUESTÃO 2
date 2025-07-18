@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+int a = 35;
+int b = 7;
+
+    int soma = a + b;
+    int subtracao = a - b;
+    int multiplicacao = a * b;
+    int quociente = a / b;
+    int resto = a % b;
+
+    printf("Soma: %d + %d = %d\n", a, b, soma);
+    printf("Subtracao: %d - %d = %d\n", a, b, subtracao);
+    printf("Multiplicacao: %d * %d = %d\n", a, b, multiplicacao);
+    printf("Divisao: %d / %d = %d\n", a, b, quociente);
+    printf("Resto da divisao: %d %% %d = %d\n", a, b, resto);
+
+    return 0;
+}
