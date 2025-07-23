@@ -3,28 +3,28 @@
 
 int main()
 {
- float litros, km;
- float total_km = 0, total_litros = 0;
+ int litros, km;
+ int totalKm = 0, totalLitros = 0;
 
     while (1) {
         printf("Entre com os litros consumidos (1 para finalizar): ");
-        scanf("%f", &litros);
+        scanf("%d", &litros);
 
         if (litros == -1) {
             break;
         }
 
         printf("Entre com os km percorridos: ");
-        scanf("%f", &km);
+        scanf("%d", &km);
 
-        printf("A taxa km/litro para esse tanque foi %.2f\n", km / litros);
+        printf("A taxa km/litro para esse tanque foi %d\n", km / litros);
 
         total_km + = km;
         total_litros + = litros;
     }
 
     if (total_litros > 0) {
-        printf("A taxa total de km/litro foi %.2f\n", total_km / total_litros);
+        printf("A taxa total de km/litro foi %d\n", totalKm / totalLitros);
     } else {
         printf("Nenhum dado inserido.\n");
     }
