@@ -3,8 +3,8 @@
 
 int main()
 {
-int a = ;
-int b = ;
+int a =35 ;
+int b =7 ;
 
     int soma = a + b;
     int subtracao = a - b;
