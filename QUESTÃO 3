@@ -5,10 +5,10 @@ int main()
 {
  int x, y;
 
-    printf("Digite o primeiro numero: ");
+    printf("Primeiro numero: ");
     scanf("%d", &x);
 
-    printf("Digite o segundo numero: ");
+    printf("Segundo numero: ");
     scanf("%d", &y);
 
     if (x % y == 0) {
